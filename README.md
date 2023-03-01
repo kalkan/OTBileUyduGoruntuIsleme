@@ -5,22 +5,26 @@ Bu repoda Monteverdi OTB yazılımı ile temel uydu görüntü işlemleri özetl
 Derslerimde OTB ve SNAP gibi yazılımları seçmem bu yazılımların ücretsiz ve açık kaynaklı olmalarından kolay ulaşılabilir olmalarıdır. 
 
 1. OTB yazılımını https://www.orfeo-toolbox.org/download/ adresinden indirerek klasörü zipten çıkarıyoruz.  
-2. Görüntü Açma
-3. Histogram görüntüleme	
-4. Farklı Bandları Birleştirme (ConcatenateImages)	
-5. Band Kombinasyonu	
-6. Görüntü Kesme	
-7. Contrast İyileştirme
-8. PixelValue	
-9. Kenar Belirleme	
-10. Görüntü İstatistiklerini Belirleme	
-11.	Quicklook Görüntü Üretme	
-12.	NDVI ve NDWI
-13.	Rescale	
-14.	4/2 Band Oranlaması
-15.	Zonal Statistics	
-16.	Gauss Yumuşatma Operatörü	
-17.	Görüntü Karşılaştırma	
-18.	Bandlarını Ayırma	
-19. Kmeans Sınıflandırması	
-20.	Mean-shift Segmentasyonu
+* OTB klasöründeki monteverdi.bat dosyası çift tıklanarak açıldığında OTB kullanıma hazır olur herhangi bir kurulum gerekmiyor. 
+* 
+* ![image](https://user-images.githubusercontent.com/3392893/222256046-3adbb174-0fc3-495c-90ee-8c10547838f5.png)
+
+3. Görüntü Açma
+4. Histogram görüntüleme	
+5. Farklı Bandları Birleştirme (ConcatenateImages)	
+6. Band Kombinasyonu	
+7. Görüntü Kesme	
+8. Contrast İyileştirme
+9. PixelValue	
+10. Kenar Belirleme	
+11. Görüntü İstatistiklerini Belirleme	
+12.	Quicklook Görüntü Üretme	
+13.	NDVI ve NDWI
+14.	Rescale	
+15.	4/2 Band Oranlaması
+16.	Zonal Statistics	
+17.	Gauss Yumuşatma Operatörü	
+18.	Görüntü Karşılaştırma	
+19.	Bandlarını Ayırma	
+20. Kmeans Sınıflandırması	
+21.	Mean-shift Segmentasyonu
