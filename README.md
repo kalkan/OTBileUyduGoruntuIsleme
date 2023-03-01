@@ -7,7 +7,7 @@ Derslerimde OTB ve SNAP gibi yazılımları seçmem bu yazılımların ücretsiz
 1. OTB yazılımını https://www.orfeo-toolbox.org/download/ adresinden indirerek klasörü zipten çıkarıyoruz.  
 * OTB klasöründeki monteverdi.bat dosyası çift tıklanarak açıldığında OTB kullanıma hazır olur herhangi bir kurulum gerekmiyor. 
 * 
-* ![image](https://user-images.githubusercontent.com/3392893/222256046-3adbb174-0fc3-495c-90ee-8c10547838f5.png)
+![image](https://user-images.githubusercontent.com/3392893/222256252-2aebd78a-b987-4c87-a476-41d777bbe4fc.png)
 
 3. Görüntü Açma
 4. Histogram görüntüleme	
