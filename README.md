@@ -47,19 +47,25 @@ Görüntümüz istediğimiz formatta görüntülenmeye hazır.
 
 ![image](https://user-images.githubusercontent.com/3392893/222419676-28d03133-9550-4f9f-b12b-1445c9f74b21.png)
 
+9. Görüntü kesme için daha önce benim QGIS'de çizdiğim subset.kml dosyası ile çıktı dosyası için bir isim vererek "ExtractROI" komutu ile görüntüyü kesiyoruz. Extraction Mode ekranından "Fit" seçebiliriz.
 
-10. Görüntü Kesme	
-11. Contrast İyileştirme
-12. PixelValue	
-13. Kenar Belirleme	
-14. Görüntü İstatistiklerini Belirleme	
-15.	Quicklook Görüntü Üretme	
-16.	NDVI ve NDWI
-17.	Rescale	
-18.	4/2 Band Oranlaması
-19.	Zonal Statistics	
-20.	Gauss Yumuşatma Operatörü	
-21.	Görüntü Karşılaştırma	
-22.	Bandlarını Ayırma	
-23. Kmeans Sınıflandırması	
-24.	Mean-shift Segmentasyonu
+![image](https://user-images.githubusercontent.com/3392893/222426289-8c7fca54-8831-4bf2-af18-17dd0304e5e8.png)
+
+Kesilen görüntü ile işlemlere devam edeceğiz.
+
+![image](https://user-images.githubusercontent.com/3392893/222426953-95dc0785-8efb-450d-b67d-01be854e657e.png)
+
+12. Contrast İyileştirme
+13. PixelValue	
+14. Kenar Belirleme	
+15. Görüntü İstatistiklerini Belirleme	
+16.	Quicklook Görüntü Üretme	
+17.	NDVI ve NDWI
+18.	Rescale	
+19.	4/2 Band Oranlaması
+20.	Zonal Statistics	
+21.	Gauss Yumuşatma Operatörü	
+22.	Görüntü Karşılaştırma	
+23.	Bandlarını Ayırma	
+24. Kmeans Sınıflandırması	
+25.	Mean-shift Segmentasyonu
