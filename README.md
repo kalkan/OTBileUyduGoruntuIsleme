@@ -25,6 +25,10 @@ Derslerimde OTB ve SNAP gibi yazılımları seçmem bu yazılımların ücretsiz
 
 ![image](https://user-images.githubusercontent.com/3392893/222412871-01a383da-38b8-488b-958d-f8d9cb22ebcd.png)
 
+Tüm araçlar sağ üste eklenmiş olmalı. 
+
+![image](https://user-images.githubusercontent.com/3392893/222413044-4b7b34a0-55b1-4f77-8ce2-2b0a4bfe0e98.png)
+
 7. 
 
 8. Farklı Bandları Birleştirme (ConcatenateImages) 	
