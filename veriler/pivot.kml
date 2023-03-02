@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="pivot" id="pivot">
+	<SimpleField name="id" type="float"></SimpleField>
+</Schema>
+<Folder><name>pivot</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>40.0387229297399,37.0952093233595 40.0387802822265,37.0994100554506 40.0449155893946,37.0993561459766 40.0448578983189,37.0951554220494 40.0387229297399,37.0952093233595</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

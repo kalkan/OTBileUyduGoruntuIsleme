@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="subset" id="subset">
+	<SimpleField name="id" type="float"></SimpleField>
+</Schema>
+<Folder><name>subset</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>39.9326890667317,37.0513220725479 39.9338317244745,37.1444752375875 40.1294613230832,37.1427723872196 40.1280794015954,37.0496249313359 39.9326890667317,37.0513220725479</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
