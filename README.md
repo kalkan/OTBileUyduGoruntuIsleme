@@ -11,6 +11,7 @@ Derslerimde OTB ve SNAP gibi yazılımları seçmem bu yazılımların ücretsiz
 
 2. https://github.com/kalkan/SNAPileSentinel-2 tutorial'ındaki 6. aşamaya kadar olan kısım aynı olacak şekilde Sentinel-2 verimizi indirip zipten çıkarıyoruz. Bu çalışmada sadece B03-B04 ve B08 bantlarını kullanacağız. 
 
+3. 
 4. Görüntü Açma
 5. Histogram görüntüleme	
 6. Farklı Bandları Birleştirme (ConcatenateImages)	
