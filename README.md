@@ -11,23 +11,31 @@ Derslerimde OTB ve SNAP gibi yazılımları seçmem bu yazılımların ücretsiz
 
 2. https://github.com/kalkan/SNAPileSentinel-2 tutorial'ındaki 6. aşamaya kadar olan kısım aynı olacak şekilde Sentinel-2 verimizi indirip zipten çıkarıyoruz. Bu çalışmada sadece B03-B04 ve B08 bantlarını kullanacağız. 
 
-3. 
-4. Görüntü Açma
-5. Histogram görüntüleme	
-6. Farklı Bandları Birleştirme (ConcatenateImages)	
-7. Band Kombinasyonu	
-8. Görüntü Kesme	
-9. Contrast İyileştirme
-10. PixelValue	
-11. Kenar Belirleme	
-12. Görüntü İstatistiklerini Belirleme	
-13.	Quicklook Görüntü Üretme	
-14.	NDVI ve NDWI
-15.	Rescale	
-16.	4/2 Band Oranlaması
-17.	Zonal Statistics	
-18.	Gauss Yumuşatma Operatörü	
-19.	Görüntü Karşılaştırma	
-20.	Bandlarını Ayırma	
-21. Kmeans Sınıflandırması	
-22.	Mean-shift Segmentasyonu
+3. Bu 3 bandın .jp2 uzantılı dosyalarını sürükleyip Monteverdi ekranına atarak görüntüleri açıyoruz. Bu noktada istediğiniz bant ile çalışabilirsiniz. Sonraki aşamada bu 3 bandı birleştirip tek görüntü elde edeceğiz. 
+
+![image](https://user-images.githubusercontent.com/3392893/222401832-5b0a978d-cfb6-4bd1-80a1-1fe94c4ac32f.png)
+
+4. Bir sonraki aşamada sağ tarafta bululan "Color dynamics" tabından "No data" değerini "0" yaparak uygulayalım. Bu işlemden sonra görüntünün histogramı anlamlı olarak görüntülenebilir hale gelecektir. 
+
+5. Görüntünün histogramını görüntülemek için sağ üstteki "Histogram" tabına basıyoruz. 
+
+![image](https://user-images.githubusercontent.com/3392893/222403109-5bce456a-99a6-4873-8a6d-00af82559beb.png)
+
+
+7. Farklı Bandları Birleştirme (ConcatenateImages)	
+8. Band Kombinasyonu	
+9. Görüntü Kesme	
+10. Contrast İyileştirme
+11. PixelValue	
+12. Kenar Belirleme	
+13. Görüntü İstatistiklerini Belirleme	
+14.	Quicklook Görüntü Üretme	
+15.	NDVI ve NDWI
+16.	Rescale	
+17.	4/2 Band Oranlaması
+18.	Zonal Statistics	
+19.	Gauss Yumuşatma Operatörü	
+20.	Görüntü Karşılaştırma	
+21.	Bandlarını Ayırma	
+22. Kmeans Sınıflandırması	
+23.	Mean-shift Segmentasyonu
