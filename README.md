@@ -21,21 +21,26 @@ Derslerimde OTB ve SNAP gibi yazılımları seçmem bu yazılımların ücretsiz
 
 ![image](https://user-images.githubusercontent.com/3392893/222403109-5bce456a-99a6-4873-8a6d-00af82559beb.png)
 
+6. Şimdi tüm işlemlerin listelendiği toolbox'u açmak için View menüsünden OTB Application Browser'ı açalım. 
 
-7. Farklı Bandları Birleştirme (ConcatenateImages)	
-8. Band Kombinasyonu	
-9. Görüntü Kesme	
-10. Contrast İyileştirme
-11. PixelValue	
-12. Kenar Belirleme	
-13. Görüntü İstatistiklerini Belirleme	
-14.	Quicklook Görüntü Üretme	
-15.	NDVI ve NDWI
-16.	Rescale	
-17.	4/2 Band Oranlaması
-18.	Zonal Statistics	
-19.	Gauss Yumuşatma Operatörü	
-20.	Görüntü Karşılaştırma	
-21.	Bandlarını Ayırma	
-22. Kmeans Sınıflandırması	
-23.	Mean-shift Segmentasyonu
+![image](https://user-images.githubusercontent.com/3392893/222412871-01a383da-38b8-488b-958d-f8d9cb22ebcd.png)
+
+7. 
+
+8. Farklı Bandları Birleştirme (ConcatenateImages) 	
+9. Band Kombinasyonu	
+10. Görüntü Kesme	
+11. Contrast İyileştirme
+12. PixelValue	
+13. Kenar Belirleme	
+14. Görüntü İstatistiklerini Belirleme	
+15.	Quicklook Görüntü Üretme	
+16.	NDVI ve NDWI
+17.	Rescale	
+18.	4/2 Band Oranlaması
+19.	Zonal Statistics	
+20.	Gauss Yumuşatma Operatörü	
+21.	Görüntü Karşılaştırma	
+22.	Bandlarını Ayırma	
+23. Kmeans Sınıflandırması	
+24.	Mean-shift Segmentasyonu
