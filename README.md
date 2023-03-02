@@ -9,23 +9,24 @@ Derslerimde OTB ve SNAP gibi yazılımları seçmem bu yazılımların ücretsiz
 
 ![image](https://user-images.githubusercontent.com/3392893/222256252-2aebd78a-b987-4c87-a476-41d777bbe4fc.png)
 
-2. 
-3. Görüntü Açma
-4. Histogram görüntüleme	
-5. Farklı Bandları Birleştirme (ConcatenateImages)	
-6. Band Kombinasyonu	
-7. Görüntü Kesme	
-8. Contrast İyileştirme
-9. PixelValue	
-10. Kenar Belirleme	
-11. Görüntü İstatistiklerini Belirleme	
-12.	Quicklook Görüntü Üretme	
-13.	NDVI ve NDWI
-14.	Rescale	
-15.	4/2 Band Oranlaması
-16.	Zonal Statistics	
-17.	Gauss Yumuşatma Operatörü	
-18.	Görüntü Karşılaştırma	
-19.	Bandlarını Ayırma	
-20. Kmeans Sınıflandırması	
-21.	Mean-shift Segmentasyonu
+2. https://github.com/kalkan/SNAPileSentinel-2 tutorial'ındaki 6. aşamaya kadar olan kısım aynı olacak şekilde Sentinel-2 verimizi indirip zipten çıkarıyoruz. Bu çalışmada sadece B03-B04 ve B08 bantlarını kullanacağız. 
+
+4. Görüntü Açma
+5. Histogram görüntüleme	
+6. Farklı Bandları Birleştirme (ConcatenateImages)	
+7. Band Kombinasyonu	
+8. Görüntü Kesme	
+9. Contrast İyileştirme
+10. PixelValue	
+11. Kenar Belirleme	
+12. Görüntü İstatistiklerini Belirleme	
+13.	Quicklook Görüntü Üretme	
+14.	NDVI ve NDWI
+15.	Rescale	
+16.	4/2 Band Oranlaması
+17.	Zonal Statistics	
+18.	Gauss Yumuşatma Operatörü	
+19.	Görüntü Karşılaştırma	
+20.	Bandlarını Ayırma	
+21. Kmeans Sınıflandırması	
+22.	Mean-shift Segmentasyonu
