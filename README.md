@@ -69,8 +69,11 @@ Kesilen görüntü ile işlemlere devam edeceğiz.
 
 ![image](https://user-images.githubusercontent.com/3392893/222430066-b58e6146-46bf-4144-82b5-5c8915ee9a37.png)
 
-17.	Quicklook Görüntü Üretme	
-18.	NDVI ve NDWI
+16. NDVI değerini hesaplamak için bu uygulamada bant aritmetiği yerine Monteverdi'de ön tanımlı radyometrik indeksleri kullanmayı göstereceğiz. Bu amaçla "RadiometricIndices" komutu ile NIR ve RED bantların konumu gösterildikten sonra subset.tif görüntümüzden NDVI indeksini hesaplayalım. ndvi.tif dosyasına kaydedelim. 
+
+![image](https://user-images.githubusercontent.com/3392893/222432049-cee6f11a-9c60-495c-93cb-e4bbc4ec19b6.png)
+
+18. 
 19.	Rescale	
 20.	4/2 Band Oranlaması
 21.	Zonal Statistics	
