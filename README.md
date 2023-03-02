@@ -65,14 +65,17 @@ Kesilen görüntü ile işlemlere devam edeceğiz.
 
 ![image](https://user-images.githubusercontent.com/3392893/222428495-eca8480d-e40f-4386-b798-f3e260d1b058.png)
 
-15. Görüntü İstatistiklerini Belirleme	
-16.	Quicklook Görüntü Üretme	
-17.	NDVI ve NDWI
-18.	Rescale	
-19.	4/2 Band Oranlaması
-20.	Zonal Statistics	
-21.	Gauss Yumuşatma Operatörü	
-22.	Görüntü Karşılaştırma	
-23.	Bandlarını Ayırma	
-24. Kmeans Sınıflandırması	
-25.	Mean-shift Segmentasyonu
+15. Görüntü istatistiklerini belirlemek için, "ComputeImageStatistics" komutu ile Mean, Min, Max ve Stdev değerlerini hesaplatalım.
+
+![image](https://user-images.githubusercontent.com/3392893/222430066-b58e6146-46bf-4144-82b5-5c8915ee9a37.png)
+
+17.	Quicklook Görüntü Üretme	
+18.	NDVI ve NDWI
+19.	Rescale	
+20.	4/2 Band Oranlaması
+21.	Zonal Statistics	
+22.	Gauss Yumuşatma Operatörü	
+23.	Görüntü Karşılaştırma	
+24.	Bandlarını Ayırma	
+25. Kmeans Sınıflandırması	
+26.	Mean-shift Segmentasyonu
