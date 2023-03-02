@@ -29,10 +29,25 @@ Tüm araçlar sağ üste eklenmiş olmalı.
 
 ![image](https://user-images.githubusercontent.com/3392893/222413044-4b7b34a0-55b1-4f77-8ce2-2b0a4bfe0e98.png)
 
-7. 
+7. İlk işlemimiz diğer uygulamlarda "Layer Stack" olarakda bulabileceğimiz "ConcatenateImages" olacak. Arama bölümünden bu seçeneği seçerek devam ediyoruz işleme. 
 
-8. Farklı Bandları Birleştirme (ConcatenateImages) 	
-9. Band Kombinasyonu	
+* + butonu ile ilgili 3 bandı ekleyerek, Output alanına çıkacak görüntünün adını .tif uzantılı olarak oluştururak işlemi çalıştırıyoruz. 
+
+![image](https://user-images.githubusercontent.com/3392893/222414277-a130f848-b44b-404b-85ce-9bac012bda41.png)
+
+Görüntümüz yüklendi fakat bantların kombinasyonu istediğimiz gibi olmadı. False colour renklendirmek istiyoruz. Bir sonraki işlemde band kombinasyonlarını değiştireceğiz. 
+
+![image](https://user-images.githubusercontent.com/3392893/222415359-66333707-8475-42b8-a77a-f2e9f5c9681d.png)
+
+8. Band kombinasyonunu NIR-Red-Green olacak şekilde,  Color setup menüsünden değiştirdikten sonra Color dynamics ekranından yine No data değerini 0 yaparak görselleştirelim.
+
+![image](https://user-images.githubusercontent.com/3392893/222419617-f12635ba-0313-4074-b02d-8ab56f23ad17.png)
+
+Görüntümüz istediğimiz formatta görüntülenmeye hazır. 
+
+![image](https://user-images.githubusercontent.com/3392893/222419676-28d03133-9550-4f9f-b12b-1445c9f74b21.png)
+
+
 10. Görüntü Kesme	
 11. Contrast İyileştirme
 12. PixelValue	
