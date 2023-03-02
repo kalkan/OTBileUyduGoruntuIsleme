@@ -31,7 +31,7 @@ Tüm araçlar sağ üste eklenmiş olmalı.
 
 > 7. İlk işlemimiz diğer uygulamlarda "Layer Stack" olarakda bulabileceğimiz "ConcatenateImages" olacak. Arama bölümünden bu seçeneği seçerek devam ediyoruz işleme. 
 
-* + butonu ile ilgili 3 bandı ekleyerek, Output alanına çıkacak görüntünün adını .tif uzantılı olarak oluştururak işlemi çalıştırıyoruz. 
+* ++ butonu ile ilgili 3 bandı ekleyerek, Output alanına çıkacak görüntünün adını .tif uzantılı olarak oluştururak işlemi çalıştırıyoruz. 
 
 ![image](https://user-images.githubusercontent.com/3392893/222414277-a130f848-b44b-404b-85ce-9bac012bda41.png)
 
