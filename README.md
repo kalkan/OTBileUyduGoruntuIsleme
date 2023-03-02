@@ -55,9 +55,16 @@ Kesilen görüntü ile işlemlere devam edeceğiz.
 
 ![image](https://user-images.githubusercontent.com/3392893/222426953-95dc0785-8efb-450d-b67d-01be854e657e.png)
 
-12. Contrast İyileştirme
-13. PixelValue	
-14. Kenar Belirleme	
+10. Kontrast İyileştirme işlemi için, "ContrastEnhancement" komutu ile Global parametreleri kullanarak görüntüye kontrast düzeltmeesi uygulayalım. Çıktı görüntüsünü subsetiyi.tif olarak adlandırabiliriz. 
+
+![image](https://user-images.githubusercontent.com/3392893/222427798-482cbcf9-4836-4873-92fb-9f8dc975ece0.png)
+
+11. Kenar belirleme işlemi için "EdgeExtraction" komutu ile kenar.tif dosyası oluşacak şekilde Sobel yöntemi ile kenar belirleyelim.
+
+![image](https://user-images.githubusercontent.com/3392893/222428436-5f9dc761-d8c0-409c-bef6-2cd2628721fd.png)
+
+![image](https://user-images.githubusercontent.com/3392893/222428495-eca8480d-e40f-4386-b798-f3e260d1b058.png)
+
 15. Görüntü İstatistiklerini Belirleme	
 16.	Quicklook Görüntü Üretme	
 17.	NDVI ve NDWI
