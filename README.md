@@ -73,12 +73,29 @@ Kesilen görüntü ile işlemlere devam edeceğiz.
 
 ![image](https://user-images.githubusercontent.com/3392893/222432049-cee6f11a-9c60-495c-93cb-e4bbc4ec19b6.png)
 
-18. 
-19.	Rescale	
-20.	4/2 Band Oranlaması
-21.	Zonal Statistics	
-22.	Gauss Yumuşatma Operatörü	
-23.	Görüntü Karşılaştırma	
-24.	Bandlarını Ayırma	
-25. Kmeans Sınıflandırması	
-26.	Mean-shift Segmentasyonu
+17. Görüntüdeki piksel değerlerini 0-1 arasına normalize etmek için Rescale komutu ile scaled.tif görüntüsünü oluşturalım.
+
+![image](https://user-images.githubusercontent.com/3392893/222432582-d8e59143-c7ee-4997-9738-6b75e5129b5a.png)
+
+18. Zonal Statistics işlem adımında size verilen pivot.kml dosyası sınırları için bölgesel istatistikleri hesaplamak için, "ZonalStatistics" komutunu çalıştıralım.
+
+![image](https://user-images.githubusercontent.com/3392893/222440099-16d3e97e-2bf9-4d94-bf4a-63dc442e5e8a.png)
+
+![image](https://user-images.githubusercontent.com/3392893/222439850-75d51c23-6133-403f-bef9-fb4cc57ceed5.png)
+
+19. K-means sınıflandırması için "KmeanSClassification" komutu ile 2 sınıfta kmeans.tif dosyasını oluşturalım.
+
+![image](https://user-images.githubusercontent.com/3392893/222441325-e611aaf9-e818-4d51-bc50-5977e5e79dd3.png)
+
+Eğitimsiz/Kontrolsüz bir kümeleme algoritması olan kmeans ile görüntünün bitki örtülü alanlar ve bitki örtüsüz alanlar olarak nasıl 2 ayrı sınıfa ayrıldığını görebilirsiniz. 
+
+![image](https://user-images.githubusercontent.com/3392893/222441902-9e680188-2116-4fe4-b153-7b8cfa875298.png)
+
+20. Son işlem adımı olarak Mean-shift Segmentasyonu ile görüntü süper piksellere veya bölütlere ayıralım. Bunun için "Segmentation" komutunu çağırarak, kmeans.tif görüntümüzden bolut.shp çıktısı üretecek şekilde öntanımlı ayarlar ile Mean-shift yöntemi ile görüntü süper piksellere ayıralım. 
+
+![image](https://user-images.githubusercontent.com/3392893/222442837-938b9bc3-9c0e-4ee2-8e4c-9021a99fee43.png)
+
+Oluşan vektör dosyasını QGIS ile açtığımızda aşağıdaki vektör alanları görebilirsiniz. 
+
+![image](https://user-images.githubusercontent.com/3392893/222443720-8130cd09-1bd5-4168-963f-522fe14d1e19.png)
+
